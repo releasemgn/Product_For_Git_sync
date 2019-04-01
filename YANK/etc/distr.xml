@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<distributive appversion="16910595">
+    <deliveries>
+        <delivery code="rpm" doc_any="no" folder="rpm" name="rpm" schema_any="no">
+            <distitem code="adb" custom_deploy="no" custom_get="no" customversion="no" deployname="adb" deployorder="0" deployversion="midpound" distname="adb-all" extension=".sh" name="adb" source="build" srcitem="adb" srcproject="hd" type="binary"/>
+            <distitem code="graphviz" custom_deploy="no" custom_get="no" customversion="no" deployname="graphviz" deployorder="0" deployversion="middash" distname="graphviz" extension=".rpm" name="грапхвиз" source="build" srcitem="graphviz" srcproject="nid2rpmregression" type="package"/>
+            <distitem code="lnav" custom_deploy="no" custom_get="no" customversion="no" deployname="lnav" deployorder="0" deployversion="middash" distname="lnav" extension=".rpm" name="лнав" source="build" srcitem="lnav" srcproject="nid2rpmregression" type="package"/>
+            <distitem code="sysstat" custom_deploy="no" custom_get="no" customversion="no" deployname="sysstat" deployorder="0" deployversion="middash" distname="sysstat" extension=".rpm" name="сысстат" source="build" srcitem="sysstat" srcproject="nid2rpmregression" type="package"/>
+            <confitem code="qqq" desc="rrr" exclude="tyyy" extconf="uuu" lname="eee" name="www" secured="ttt" type="dir"/>
+        </delivery>
+    </deliveries>
+    <components>
+        <component code="qqq" desc="rrr" lname="eee" name="www">
+            <distitem name="graphviz"/>
+            <confitem name="qqq"/>
+            <webservice url="ыфваыф"/>
+        </component>
+    </components>
+</distributive>

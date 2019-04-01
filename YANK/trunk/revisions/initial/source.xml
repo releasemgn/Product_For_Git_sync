@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sources appversion="16910599">
+    <projectset code="Test_nabor_for_azamat" name="Тест_набор_фор_азамат" parallel="yes" pos="1">
+        <project code="myurmsync" custom_build="no" custom_get="no" desc="git_smart" lname="git vpyzhenkov/ myurmsync http login" name="мыурмсынц" order="4" prod="no" repodata="/" repopath="vpyzhenkov" repository="myurmsync" resource="git.phoenixg.ru" type="prebuilt_vcs"/>
+        <project builder="ant.generic" code="project_demo12" custom_build="no" custom_get="no" lname="git key vpyzhenkov/project_demo12" name="пройецт_демо12" order="2" prod="no" repodata="/" repopath="vpyzhenkov" repository="project_demo12" resource="git.phoenix" type="buildable"/>
+        <project code="rpm_repo" custom_build="no" custom_get="no" desc="usvn" lname="svn phoenixg surp repo" name="рпм_репо" order="1" prod="no" repodata="/" repopath="/" repository="surp" resource="svn.phoenixg" type="prebuilt_vcs"/>
+        <project code="svn_path" custom_build="no" custom_get="no" desc="usvn" lname="svn phoenixg surp repo path surp" name="свн_патх" order="3" prod="no" repodata="path" repopath="surp/trunk" repository="surp" resource="svn.phoenixg" type="prebuilt_vcs"/>
+    </projectset>
+    <projectset code="git_test_sources" name="git_test_sources" parallel="no" pos="4">
+        <project builder="ant.generic" code="github_key_test" custom_build="no" custom_get="no" name="github_key_test" order="2" prod="no" repodata="/" repopath="/" repository="urm_test_git_key" resource="github_urmuser_key" type="buildable"/>
+        <project builder="ant.generic" code="github_pass_test" custom_build="no" custom_get="no" name="github_pass_test" order="3" prod="no" repodata="/" repopath="/" repository="urm_test_git_password" resource="github_urmuser_pass" type="buildable"/>
+        <project code="usvn_test" custom_build="no" custom_get="no" desc="usvn_test" lname="usvn_test" name="usvn_test" order="1" prod="no" repodata="path" repopath="surp/trunk" repository="surp" resource="svn.phoenixg" type="prebuilt_vcs"/>
+    </projectset>
+    <projectset code="hotdeploy" name="hd" parallel="no" pos="3">
+        <project code="hd" custom_build="no" custom_get="no" name="hd" order="1" prod="no" repodata="/" repopath="/" repository="awesome-android-scripts" resource="git_smart" type="prebuilt_vcs">
+            <srcitem basename="adb-all" code="adb" extension=".sh" internal="no" itempath="." name="adb" type="basic"/>
+        </project>
+    </projectset>
+    <projectset code="nid2_check" name="nid2_check" parallel="no" pos="2">
+        <project code="nid2rpmregression" custom_build="no" custom_get="no" name="nid2rpmregression" order="1" prod="no" repodata="/" repopath="smartmanru" repository="nid2rpmregression" resource="git_ssh_smartman" type="prebuilt_vcs">
+            <srcitem basename="graphviz" code="graphviz" extension=".rpm" internal="no" itempath="." name="graphviz" type="package"/>
+            <srcitem basename="lnav" code="lnav" extension=".rpm" internal="no" itempath="." name="lnav" type="package"/>
+            <srcitem basename="sysstat" code="sysstat" extension=".rpm" internal="no" itempath="." name="sysstat" type="package"/>
+        </project>
+    </projectset>
+</sources>
