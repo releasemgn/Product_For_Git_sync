@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<docs appversion="16910599">
+    <document code="doc" desc="edoc" extension=".doc" lname="code" name="док" type="usetime" unitbound="yes"/>
+    <document code="docc" desc="рирпир" extension="otx" name="докс" type="designtime" unitbound="no"/>
+</docs>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<database appversion="16910595">
+    <administration/>
+    <schema code="db" dbname="qq" dbtype="postgresql" dbuser="qq" desc="бд" lname="дб" name="бд"/>
+</database>
